@@ -56,8 +56,15 @@ const Header = () => {
 					<FaStackOverflow size="2rem" color="whitesmoke" />
 				</a>
 			</IconWrapper>
-			<Profile src="img/profile.jpg" alt="profile pic" />
-			<HeaderIMG src="img/header.png" />
+			<HeaderIMG src="img/header.png" alt="header img" />
+			<Profile
+				src="img/profile-large.jpg"
+				/* srcSet="profile-small.jpg 480w, profile-medium.jpg 768w, profile-large.jpg 1024w"
+				sizes="(max-width: 480px) 100vw,
+            (max-width: 768px) 90vw,
+            1024px" */
+				alt="profile img"
+			/>
 		</StyledHeader>
 	);
 };

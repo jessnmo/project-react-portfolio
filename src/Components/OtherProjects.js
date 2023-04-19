@@ -14,7 +14,8 @@ const Container = styled.div`
 	align-items: center;
 `;
 
-const Paragraph = styled.h3`
+const Paragraph = styled.h2`
+	font-size: 1rem;
 	text-align: center;
 	border-bottom: 1px solid #000000;
 	padding-bottom: 5px;
@@ -41,12 +42,13 @@ const OtherProjects = () => {
 			<Title>Other Projects</Title>
 			<Paragraph>
 				I code on my free time to get my hands dirty. Best way to learn right?
-				Check out some other projects I have loads fun working on 🤩
+				Check out some other projects I had loads fun working on 🤩
 			</Paragraph>
 
 			<Container>
 				<ProjectDesc
 					href="https://react-tictactoe-jessnmo.netlify.app/"
+					aria-label="github"
 					target="_blank"
 				>
 					Tic-Tac-Toe in React
@@ -65,6 +67,7 @@ const OtherProjects = () => {
 			<Container>
 				<ProjectDesc
 					href="https://jessnmo.github.io/flexbox-game/"
+					aria-label="github"
 					target="_blank"
 				>
 					Duplicate Flexbox Game
@@ -81,7 +84,7 @@ const OtherProjects = () => {
 			</Container>
 
 			<Container>
-				<ProjectDesc href="#" target="_blank">
+				<ProjectDesc href="#" aria-label="github" target="_blank">
 					Buzzfeed Quiz Dupe in React with JSON Server
 				</ProjectDesc>
 				<p>
@@ -99,6 +102,7 @@ const OtherProjects = () => {
 			<Container>
 				<ProjectDesc
 					href="https://friends-redux-quiz.netlify.app/"
+					aria-label="github"
 					target="_blank"
 				>
 					Quiz build in Redux

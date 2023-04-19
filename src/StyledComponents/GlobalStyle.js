@@ -34,18 +34,23 @@ export const SectionParagraph = styled.p`
 	padding: 2rem;
 `;
 
-export const Title = styled.div`
-	background-color: #0008c1;
+export const Title = styled.h1`
+	/* background-color: #0008c1;
 	color: #e6cba8;
 	font-size: 1.5rem;
 	font-weight: 700;
 	align-self: center;
 	padding: 0.8rem;
 	border-radius: 10px;
-	margin-bottom: 15px;
+	 */
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: rgb(86, 64, 61);
+	margin-bottom: 20px;
 `;
 
 export const SubTitle = styled.h2`
+	font-size: 1rem;
 	margin: 20px;
 `;
 
@@ -84,6 +89,7 @@ export const Footer = styled.div`
 	width: 100vw;
 	height: 30vh;
 	display: flex;
+	text-align: center;
 	flex-direction: column;
 	overflow: auto;
 	padding: 2rem;

@@ -42,7 +42,7 @@ const Card = styled.div`
 const CardContent = styled.div`
 	text-align: center;
 
-	transition: transform 3s;
+	transition: transform 1.25s;
 	transform-style: preserve-3d;
 
 	${Card}:hover & {
@@ -87,11 +87,19 @@ const FeaturedProjects = () => {
 							<CardContent>
 								<CardFront>
 									<SubTitle>{project.title}</SubTitle>
-									<Img img={project.img} src={project.repo_name} />
+									<Img
+										img={project.img}
+										src={project.repo_name}
+										alt="image sticker"
+									/>
 								</CardFront>
 
 								<CardBack>
-									<ProjectDesc href={project.url} target="_blanket">
+									<ProjectDesc
+										href={project.url}
+										aria-label="github"
+										target="_blank"
+									>
 										{project.project_description}
 									</ProjectDesc>
 									<TagWrapper>

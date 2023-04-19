@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const FooterP = styled.a`
 	color: #0008c1;
-	font-size: 1.2rem;
+	font-size: 16px;
 	font-weight: bold;
 	align-self: center;
 	padding: 10px;
