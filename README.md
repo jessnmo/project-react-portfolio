@@ -1,2 +1,2 @@
 ## 
-view it live: https://master--jessica-mo-portfolio.netlify.app/
+view it live: https://jessica-mo-portfolio.netlify.app/
