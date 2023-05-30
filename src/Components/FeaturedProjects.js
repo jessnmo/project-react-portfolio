@@ -22,6 +22,13 @@ const ProjectContainer = styled.div`
 	grid-template-areas:
 		'card1 card2'
 		'card3 card4';
+	@media (max-width: 768px) {
+		grid-template-areas:
+			'card1'
+			'card2'
+			'card3'
+			'card4';
+	}
 `;
 
 const Card = styled.div`
@@ -41,7 +48,6 @@ const Card = styled.div`
 
 const CardContent = styled.div`
 	text-align: center;
-
 	transition: transform 1.25s;
 	transform-style: preserve-3d;
 

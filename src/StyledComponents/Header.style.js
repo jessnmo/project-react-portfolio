@@ -15,14 +15,27 @@ export const Profile = styled.img`
 	border: 2px solid whitesmoke;
 	border-radius: 50%;
 	object-fit: cover;
+	@media (max-width: 768px) {
+		display: none;
+	}
+`;
+
+export const HeaderIMGWrapper = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
 `;
 
 export const HeaderIMG = styled.img`
 	position: absolute;
 	height: 400px;
 	width: 400px;
-	right: 30%;
-	top: 1%;
+	right: 50%;
+	top: 50%;
+	transform: translate(50%, -50%);
+	@media (max-width: 768px) {
+		display: none;
+	}
 `;
 
 export const HeaderText = styled.div`

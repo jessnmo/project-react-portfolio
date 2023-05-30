@@ -19,7 +19,6 @@ const Skills = () => {
 					<p>CSS</p>
 					<p>Redux</p>
 					<p>Node.js</p>
-					<p>Express.</p>
 				</SubSkillsContainer>
 				<SubSkillsContainer>
 					<SubTitle>Other Skills</SubTitle>
