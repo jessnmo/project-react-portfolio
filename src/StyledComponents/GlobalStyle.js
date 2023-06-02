@@ -32,14 +32,13 @@ export const SectionParagraph = styled.p`
 	line-height: 150%;
 	align-items: center;
 	padding: 2rem;
-	height: 100px;
+	height: auto;
 	padding-left: 10px;
 	padding-right: 10px;
 
 	@media (min-width: 768px) {
-		height: auto;
-		padding-left: 2rem;
-		padding-right: 2rem;
+		height: 200px;
+		padding: none;
 	}
 `;
 
