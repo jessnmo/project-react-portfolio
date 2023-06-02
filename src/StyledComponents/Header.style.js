@@ -24,6 +24,7 @@ export const HeaderIMGWrapper = styled.div`
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	//position: relative;
 `;
 
 export const HeaderIMG = styled.img`
@@ -33,7 +34,16 @@ export const HeaderIMG = styled.img`
 	right: 50%;
 	top: 50%;
 	transform: translate(50%, -50%);
+
 	@media (max-width: 768px) {
+		position: absolute;
+		height: 300px;
+		width: 300px;
+		right: 20%;
+		top: 60%;
+	}
+
+	@media (max-width: 627px) {
 		display: none;
 	}
 `;
@@ -48,6 +58,12 @@ export const HeaderText = styled.div`
 	display: flex;
 	flex-direction: column;
 	gap: 5px;
+
+	@media (max-width: 576px) {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 `;
 
 export const IconWrapper = styled.div`
@@ -57,4 +73,15 @@ export const IconWrapper = styled.div`
 	gap: 10px;
 	padding-top: 5rem;
 	padding-right: 5rem;
+
+	@media (max-width: 576px) {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding-top: 2rem;
+	}
+
+	@media (max-width: 768px) {
+		padding-top: 2rem;
+	}
 `;
