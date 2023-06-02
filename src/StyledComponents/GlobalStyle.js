@@ -23,10 +23,6 @@ export const SectionContainer = styled.section`
 	align-items: center;
 	padding: 25px 80px 25px 80px;
 	overflow: auto;
-
-	@media (max-width: 768px) {
-		height: 30rem;
-	}
 `;
 
 export const SectionParagraph = styled.p`
@@ -36,6 +32,15 @@ export const SectionParagraph = styled.p`
 	line-height: 150%;
 	align-items: center;
 	padding: 2rem;
+	height: 100px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+	@media (min-width: 768px) {
+		height: auto;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
 `;
 
 export const Title = styled.h1`
