@@ -23,6 +23,10 @@ export const SectionContainer = styled.section`
 	align-items: center;
 	padding: 25px 80px 25px 80px;
 	overflow: auto;
+
+	@media (max-width: 768px) {
+		height: 30rem;
+	}
 `;
 
 export const SectionParagraph = styled.p`
